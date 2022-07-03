@@ -1,4 +1,4 @@
-const uuid = require('../helpers/uuid');
+const uuid = require('../src/helpers/uuid');
 
 const reviews = [
   {
