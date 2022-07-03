@@ -7,6 +7,6 @@ const {
 const router = Router();
 
 router.get('/:reviewId', getUpvotesByReviewId);
-router.get('/:reviewId', createUpvotesByReviewId);
+router.post('/:reviewId', createUpvotesByReviewId);
 
 module.exports = router;

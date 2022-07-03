@@ -25,7 +25,7 @@ const createUpvotesByReviewId = (req, res) => {
 
   const { reviewId } = req.params;
 
-  if (req.body && reviewId) {
+  if (reviewId) {
     for (let i = 0; i < reviews.length; i++) {
       const currentReview = reviews[i];
 
