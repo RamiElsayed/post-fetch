@@ -1,6 +1,6 @@
 const { Router } = require('express');
 
-const { renderPage } = require('../../controllers/view}');
+const { renderPage } = require('../../controllers/view');
 
 const router =  Router();
 

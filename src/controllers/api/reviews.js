@@ -24,15 +24,12 @@ const getReviewById = (req, res) => {
   }
 };
 const createReview = (req, res) => {
-  // Log that a POST request was received
+  
   console.info(`${req.method} request received to add a review`);
 
-  // TODO: Add a comment describing the functionality of following line of code:
   const { product, review, username } = req.body;
 
-  // TODO: Add a comment describing why we would check to see if the following properties exist before entering the code block
   if (product && review && username) {
-    // Variable for the object we will save
     const newReview = {
       product,
       review,
